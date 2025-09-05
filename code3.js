@@ -488,7 +488,7 @@ gdjs.ToppingsCode.eventsList21 = function(runtimeScene) {
 gdjs.ToppingsCode.mapOfGDgdjs_9546ToppingsCode_9546GDUI_95959595TrashObjects2Objects = Hashtable.newFrom({"UI_Trash": gdjs.ToppingsCode.GDUI_9595TrashObjects2});
 gdjs.ToppingsCode.eventsList22 = function(runtimeScene) {
 
-};gdjs.ToppingsCode.userFunc0xa06068 = function GDJSInlineCode(runtimeScene) {
+};gdjs.ToppingsCode.userFunc0xbfa980 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Get the scene variables container
 const sceneVariables = runtimeScene.getVariables();
@@ -2671,7 +2671,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.ToppingsCode.userFunc0xa06068(runtimeScene);
+gdjs.ToppingsCode.userFunc0xbfa980(runtimeScene);
 
 }
 
