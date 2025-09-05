@@ -488,7 +488,7 @@ gdjs.ToppingsCode.eventsList21 = function(runtimeScene) {
 gdjs.ToppingsCode.mapOfGDgdjs_9546ToppingsCode_9546GDUI_95959595TrashObjects2Objects = Hashtable.newFrom({"UI_Trash": gdjs.ToppingsCode.GDUI_9595TrashObjects2});
 gdjs.ToppingsCode.eventsList22 = function(runtimeScene) {
 
-};gdjs.ToppingsCode.userFunc0x986108 = function GDJSInlineCode(runtimeScene) {
+};gdjs.ToppingsCode.userFunc0xa06068 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Get the scene variables container
 const sceneVariables = runtimeScene.getVariables();
@@ -2671,7 +2671,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.ToppingsCode.userFunc0x986108(runtimeScene);
+gdjs.ToppingsCode.userFunc0xa06068(runtimeScene);
 
 }
 
@@ -2726,6 +2726,12 @@ gdjs.copyArray(runtimeScene.getObjects("Topping_Sprinkle"), gdjs.ToppingsCode.GD
 }{for(var i = 0, len = gdjs.ToppingsCode.GDTopping_9595SberryObjects1.length ;i < len;++i) {
     gdjs.ToppingsCode.GDTopping_9595SberryObjects1[i].deleteFromScene(runtimeScene);
 }
+}{runtimeScene.getGame().getVariables().getFromIndex(5).setString("");
+}{runtimeScene.getGame().getVariables().getFromIndex(6).setString("");
+}{runtimeScene.getGame().getVariables().getFromIndex(7).setString("");
+}{runtimeScene.getGame().getVariables().getFromIndex(8).setString("");
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setString("");
+}{runtimeScene.getGame().getVariables().getFromIndex(10).setString("");
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Layers", false);
 }}

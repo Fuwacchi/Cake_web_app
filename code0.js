@@ -116,7 +116,9 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Layers", false);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Game_Audio.ogg", 1, true, 100, 1);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setBoolean(true);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Layers", false);
 }}
 
 }
@@ -134,7 +136,9 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Return");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Layers", false);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Game_Audio.ogg", 1, true, 100, 1);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setBoolean(true);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Layers", false);
 }}
 
 }

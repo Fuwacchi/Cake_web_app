@@ -69,6 +69,7 @@ gdjs.copyArray(runtimeScene.getObjects("PLY_Music"), gdjs.LayersCode.GDPLY_9595M
 }{for(var i = 0, len = gdjs.LayersCode.GDPLY_9595MusicObjects1.length ;i < len;++i) {
     gdjs.LayersCode.GDPLY_9595MusicObjects1[i].hide();
 }
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
 }}
 
 }
